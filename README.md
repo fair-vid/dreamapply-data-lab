@@ -47,24 +47,24 @@ dreamapply-data-lab/
 1. Open the notebook `DREAM_data.ipynb` in **Google Colab**.  
 2. Store your secrets using the built-in `userdata` API:
 
-   ```python
+```python
    from google.colab import userdata
 
    userdata.set("DREAM_API_KEY", "your_api_key_here")
    userdata.set("BASE_URL", "https://apply.yourinstitution.example")
    userdata.set("ENCRYPTION_PASSWORD", "strong_password_here")
 
-   ```
+```
 
 
 3. Access them securely in your code:
 
-   ```python
+```python
   api_key = userdata.get("DREAM_API_KEY")
   base_url = userdata.get("BASE_URL")
   encryption_password = userdata.get("ENCRYPTION_PASSWORD")
   
-   ```
+```
 
 4. Run the notebook to retrieve data, process files, and export encrypted reports.
 
