@@ -53,6 +53,7 @@ dreamapply-data-lab/
    userdata.set("DREAM_API_KEY", "your_api_key_here")
    userdata.set("BASE_URL", "https://apply.yourinstitution.example")
    userdata.set("ENCRYPTION_PASSWORD", "strong_password_here")
+
    ```
 
 
@@ -62,6 +63,7 @@ dreamapply-data-lab/
   api_key = userdata.get("DREAM_API_KEY")
   base_url = userdata.get("BASE_URL")
   encryption_password = userdata.get("ENCRYPTION_PASSWORD")
+  
    ```
 
 4. Run the notebook to retrieve data, process files, and export encrypted reports.
