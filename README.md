@@ -57,13 +57,13 @@ dreamapply-data-lab/
 
 3. Access them securely in your code:
 
-  ```python
+   ```python
   api_key = userdata.get("DREAM_API_KEY")
   base_url = userdata.get("BASE_URL")
   encryption_password = userdata.get("ENCRYPTION_PASSWORD")
 
 
-4.  Run the notebook to retrieve data, process files, and export encrypted reports.
+4. Run the notebook to retrieve data, process files, and export encrypted reports.
 
 
 🛡️ Security Approach
