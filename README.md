@@ -44,15 +44,16 @@ dreamapply-data-lab/
 
 ## ⚙️ Setup in Google Colab
 
-1. Open the notebook `DREAM_data.ipynb` in **Google Colab**.  
-2. Store your secrets using the built-in `userdata` API:
+1. Open the notebook `DREAM_data_example_get_doc.ipynb` in **Google Colab**.
+   [📓 DREAM_data.ipynb - Colab Notebook](https://colab.research.google.com/drive/13dqsnwa40-gQkt6AdaGbr2Is0j4VVrcW?usp=sharing)
+
+3. Store your secrets using the built-in `userdata` API:
 
 ```python
    from google.colab import userdata
 
    userdata.set("DREAM_API_KEY", "your_api_key_here")
    userdata.set("BASE_URL", "https://apply.yourinstitution.example")
-   userdata.set("ENCRYPTION_PASSWORD", "strong_password_here")
 
 ```
 
