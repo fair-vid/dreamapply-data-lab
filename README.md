@@ -20,7 +20,7 @@ This repository contains Colab notebooks and helper scripts for:
 ---
 
 ## 🧱 Repository Structure
-
+```
 dreamapply-data-lab/
 │
 ├── notebooks/
@@ -36,7 +36,7 @@ dreamapply-data-lab/
 │
 └── README.md
 
-
+```
 
 
 
