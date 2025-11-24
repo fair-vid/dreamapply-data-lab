@@ -46,13 +46,14 @@ dreamapply-data-lab/
 
 1. Open the notebooks  in **Google Colab**.
 
-    [📓 DREAM_documents image extract - Colab Notebook](https://colab.research.google.com/drive/13dqsnwa40-gQkt6AdaGbr2Is0j4VVrcW?usp=sharing)
+[📓 DREAM_documents image extract - Colab Notebook](https://colab.research.google.com/drive/13dqsnwa40-gQkt6AdaGbr2Is0j4VVrcW?usp=sharing)
 
 OR
    
-   [📜 DREAM_applicant data_extract - Colab Notebook](https://colab.research.google.com/drive/1FY3YHnQMGXBJRgocjyINYT_A9wxgafi7#scrollTo=0kwGYKTX4QoB)
+[📜 DREAM_applicant data_extract - Colab Notebook](https://colab.research.google.com/drive/1FY3YHnQMGXBJRgocjyINYT_A9wxgafi7#scrollTo=0kwGYKTX4QoB)
 
-3. Store your secrets using the built-in `userdata` API:
+
+2. Store your secrets using the built-in `userdata` API:
 
 ```python
    from google.colab import userdata
